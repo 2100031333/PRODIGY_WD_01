@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background: url('https://c0.wallpaperflare.com/preview/468/930/352/background-website-plant-wall.jpg') no-repeat center center fixed;
+    background-size: 100% auto;
+    /* Additional properties to ensure the background image is fixed and doesn't repeat */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: rgba(51, 51, 51, 0.8);
+    color: rgb(255, 255, 255);
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: hwb(0 100% 0%);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#intro {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 5px;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+marquee {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff6347;
+}
+
+footer {
+    background-color: rgba(51, 51, 51, 0.8);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
